@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/funmilayoadewodu/Documents/Books/ServerSideSwift/project1/.build/checkouts/crypto.git--6501324852285251225/Sources/CCryptoOpenSSL/include"
+    export *
+}
