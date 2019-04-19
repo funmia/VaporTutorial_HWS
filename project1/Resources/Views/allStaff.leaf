@@ -1,0 +1,11 @@
+#set("body") {
+    <ul>
+    #for(name in names) {
+        <li><a href="/staff/#(name)">#capitalize(name)</a></li>
+    }
+    </ul>
+}
+
+#set("title") {Staff}
+#set("h1") {All staff members:}
+#embed("master")
